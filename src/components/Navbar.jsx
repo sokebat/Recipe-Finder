@@ -6,7 +6,7 @@ function Navbar() {
      px-4 bg-[#F8EFBA] py-4 shadow-md'>
         <div className="left">
             <div className="logo font-bold text-2xl text-black text-center">
-            Food App</div>
+           Recipe Finder</div>
         </div>        
         <div className="right">
             <ul className='flex space-x-4 text-black justify-center'>
