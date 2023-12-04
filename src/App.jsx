@@ -14,7 +14,6 @@ function App() {
   const fetchFood = async () => {
     try {
       setLoading(true)
-      // const res = await fetch(`https://api.edamam.com/api/recipes/v2?type=public&q=${search}&app_id=${APP_ID}&app_key=${APP_KEY}`);
       const res = await fetch(`https://api.edamam.com/api/recipes/v2?type=public&q=${search}&app_id=b3972793&app_key=91d4d909be31b7f05b7997fb6f2380b0`);
       const data = await res.json();
       setAllFood(data.hits);
